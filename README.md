@@ -10,8 +10,8 @@ http://www.mediafire.com/file/zz3isb1ewu3v0mw/Library-BugFix.zip/file
 I use IntelliJ IDEA to develop this app.
 
 
-Included External Libraries 
-JFOENIX fro Ui,
+Included External Libraries are
+JFOENIX for UI,
 Derby Database,
-Common Codec for User's password to store with SHA1,
-Gson for JSON file 
+And Common Codec for User's password to store with SHA1,
+Gson for JSON file

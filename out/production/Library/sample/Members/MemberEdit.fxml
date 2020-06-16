@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="227.0" prefWidth="600.0" styleClass="menuVoe" stylesheets="@../style.css"  xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Members.MemberEditController">
+   <children>
+      <JFXTextField fx:id="nameField" focusColor="BLACK" labelFloat="true" layoutX="30.0" layoutY="60.0" prefHeight="37.0" prefWidth="157.0" promptText="Name" unFocusColor="#070707">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="mobileField" focusColor="BLACK" labelFloat="true" layoutX="222.0" layoutY="60.0" prefHeight="37.0" prefWidth="157.0" promptText="Mobile Number" unFocusColor="#070707">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="addressField" focusColor="BLACK" labelFloat="true" layoutX="411.0" layoutY="60.0" prefHeight="37.0" prefWidth="157.0" promptText="Address" unFocusColor="#070707">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="cancelButton" buttonType="RAISED" layoutX="100.0" layoutY="158.0" onAction="#cancelAction" prefHeight="29.0" prefWidth="87.0" text="Cancel">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="saveButton" buttonType="RAISED" layoutX="411.0" layoutY="158.0" onAction="#saveAction" prefHeight="29.0" prefWidth="87.0" text="Save">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

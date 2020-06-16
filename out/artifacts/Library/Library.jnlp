@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Library.jnlp">
+  <information>
+    <title>Mandalar Library</title>
+    <vendor>HeinZawAung</vendor>
+    <description>Library</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Library.jar" size="98461" download="eager" />
+    <jar href="sample/Lib/commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="sample/Lib/derby-driver.jar" size="2166232" download="eager" />
+    <jar href="sample/Lib/gson-2.6.2.jar" size="229650" download="eager" />
+    <jar href="sample/Lib/jfoenix-8.0.10.jar" size="2710207" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="Library" />
+  <update check="background"/>
+</jnlp>

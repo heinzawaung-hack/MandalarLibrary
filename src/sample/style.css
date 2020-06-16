@@ -1,0 +1,35 @@
+.backgroundColor{
+    -fx-background-color : linear-gradient(to right,#fffbd5, #b20a2c);
+}
+
+.backTransact{
+    -fx-background-color : linear-gradient(to right,#003973, #E5E5BE);
+}
+
+.homePage{
+    -fx-background-color : linear-gradient(to bottom,#dc2430 , #7b4397);
+}
+
+.WhistList{
+    -fx-background-color : linear-gradient(to right,#833ab4, #fd1d1d , #fcb045);
+}
+
+.jfx-button{
+   -fx-background-color : #00d164;
+}
+
+.memberAdd{
+    -fx-background-color : linear-gradient(to right,#ff6e7f, #bfe9ff);
+}
+
+.menuVoe{
+    -fx-background-color : linear-gradient(to bottom,#FFFFFF, #FFEFBA);
+}
+
+.relaxingRed{
+    -fx-background-color : linear-gradient(to right,#fffbd5, #b20a2c);
+}
+
+.version{
+    -fx-background-color : linear-gradient(to right,#d53369, #cbad6d);
+}

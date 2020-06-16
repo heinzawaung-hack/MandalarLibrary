@@ -11,7 +11,7 @@ I use IntelliJ IDEA to develop this app.
 
 
 Included External Libraries 
-JFOENIX fro Ui
-Derby Database
-Common Codec for User's password to store with SHA1
+JFOENIX fro Ui,
+Derby Database,
+Common Codec for User's password to store with SHA1,
 Gson for JSON file 
